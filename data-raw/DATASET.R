@@ -18,3 +18,4 @@ green_avg <-  Greenhouse_Gas_Emissions %>%
   ))
 
 usethis::use_data(green_avg, overwrite = TRUE)
+usethis::use_data(Greenhouse_Gas_Emissions, overwrite = TRUE)
